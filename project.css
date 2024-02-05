@@ -1,0 +1,1233 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+body {
+    font-family: poppins;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-family: poppins;
+    color: white;
+    font-size: 26px;
+    font-weight: 500px;
+}
+
+h5 {
+    color: white;
+    font-size: 12px;
+}
+
+p {
+    font-family: poppins;
+}
+
+.login ul li a:hover {
+    color: rgb(255, 174, 0);
+}
+
+.head-address {
+    width: 70%;
+}
+
+.login {
+    width: 30%;
+}
+
+.head_address li a:hover {
+    color: rgb(255, 174, 0);
+}
+
+.header {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 5%, rgb(8, 8, 96) 35%, rgb(5, 5, 122) 100%);
+    position: relative;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header ul {
+    /* padding: 0px 20px 0px 20px; */
+    display: flex;
+    float: right;
+    list-style-type: none;
+}
+
+.header li a {
+    position: relative;
+    margin: 0px 20px 0px 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+    animation: header 1s ease-in-out;
+
+}
+
+.socialicon {
+    animation: header 1s ease-in-out;
+}
+
+@keyframes header {
+    0% {
+        transform: translatey(-100%);
+    }
+}
+
+.socialicon a {
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    margin-left: 20px;
+    border: 2px dotted rgb(255, 174, 0);
+    justify-content: center;
+    align-items: center;
+    /* display: inline-block; */
+    border-radius: 100%;
+    float: right;
+}
+
+.socialicon a:hover {
+    background-color: rgba(255, 174, 0, 0.525);
+}
+
+/* SECOND HEADER SECTION */
+.secondhead {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    /* padding: 0px 20px 0px 50px; */
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 84px;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.199);
+}
+
+#logo {
+    width: 15%;
+}
+
+.navication {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    /* margin-top: 100px; */
+    list-style-type: none;
+    display: inline-block;
+    /* padding: 18px 30PX; */
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 600;
+    text-align: center;
+}
+
+nav ul li a {
+    padding: 28px 40PX;
+    color: black;
+    font-size: 16PX;
+    font-family: poppins;
+    font-weight: 600;
+    text-align: center;
+    height: 100px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(8, 8, 96);
+    border-top: 5px double rgb(255, 157, 0);
+    border-bottom: 4px solid rgb(255, 157, 0);
+    color: #ffffff;
+}
+
+/* .......BUTTON............. */
+#btn {
+    width: 15%;
+    display: flex;
+    /* flex: 1; */
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#btn button {
+    position: absolute;
+    padding: 10px 30px;
+    float: left;
+    background-color: rgb(8, 8, 96);
+    text-decoration: none;
+    font-size: 17px;
+    font-family: poppins;
+    font-weight: 600;
+    /* text-shadow: 1px 1px 8px rgb(94, 94, 94); */
+    border: 4px solid rgb(255, 174, 0);
+    border-radius: 20px;
+    animation-name: enquirybtn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    text-shadow: 2px 2px 8px #ffae00;
+}
+
+@keyframes enquirybtn {
+    0% {
+        right: 13px
+    }
+
+    50% {
+        right: -13px;
+    }
+
+    100% {
+        right: 13px;
+    }
+}
+
+button a {
+    color: aliceblue;
+    /* margin: 0px 50px;
+    padding: 0px 50px; */
+
+}
+
+#btn button:hover {
+    background-color: rgb(255, 174, 0);
+    background-size: cover;
+    color: rgb(8, 8, 96);
+    border: 3px solid rgb(8, 8, 96)
+}
+
+/* ...............HEADER END.................. */
+
+/* ...............BANNER START................ */
+.banner {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-image: url(../project/image/banner2.jpg);
+    background-size: cover;
+    height: 600px;
+    z-index: 1;
+
+}
+
+/* ............FISRT CHILD.......... */
+#ban1 {
+    width: 49%;
+    margin-top: 15%;
+    margin-left: 7%;
+    animation: ban1 2s ease-in-out;
+}
+
+h1 {
+    color: white;
+    font-size: 65px;
+    font-family: 'poppins';
+}
+
+#ban1 p {
+    color: white;
+    font-size: 28px;
+    font-family: poppins;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    font-weight: 500;
+    line-height: 5rem;
+}
+
+#ban1 span {
+    background-color: #ffae00;
+    padding: 3px 8px;
+}
+
+@keyframes ban1 {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+}
+
+/* ............SECOND CHILD.......... */
+#ban2 {
+    width: 50%;
+}
+
+#ban2 img {
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    margin-top: 7%;
+    margin-left: 12%;
+    animation-name: bannerimg;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bannerimg {
+    0% {
+        top: 13px
+    }
+
+    50% {
+        top: -13px;
+    }
+
+    100% {
+        top: 13px;
+    }
+}
+
+#ban1 button {
+    background-color: transparent;
+    border: 2px solid #ffae00;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-style: italic;
+
+}
+
+#ban1 button:hover {
+    background-color: #ffae00;
+    border: 2px dashed #ffae00;
+    padding: 10px 25px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-shadow: 2px 3px 2px black;
+
+}
+
+/* .....................BANNER SECTION END........................... */
+
+/* ............ABOUT SECTION.................................. */
+
+.abt {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    padding: 50px;
+    flex-wrap: wrap;
+
+}
+
+#abt1 {
+    width: 40%;
+    /* background-color: #ffae00; */
+    font-family: poppins;
+    animation: abt1 2s ease-in-out;
+
+}
+
+#abt1 h2 {
+    font-size: 56px;
+    margin-top: 10px;
+    text-align: left;
+    line-height: 70px;
+}
+
+h2 span {
+    color: #ffae00;
+}
+
+#abt1 p {
+    color: black;
+    margin-top: 30px;
+}
+
+.dashed {
+    border: 2px dashed #ffae00;
+    width: 90%;
+}
+
+#abt1 button {
+    background-color: rgb(8, 8, 96);
+    border: 3px solid #ffae00;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 20px;
+    font-style: italic;
+
+}
+
+#abt1 button:hover {
+    background-color: #ffae00;
+    border: 3px solid #ffae00;
+    padding: 10px 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-shadow: 2px 3px 2px black;
+
+}
+
+#abt2 {
+    width: 40%;
+    animation: abt2 2s ease-in-out;
+}
+
+@keyframes abt1 {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+}
+
+@keyframes abt2 {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+}
+
+/* ................ABOUT SECTION END...................... */
+
+/* ................SERVICE SECTION START................. */
+.service {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 730px;
+    margin: 0px;
+    padding: 20px;
+    background-image: url(../project/image/servicebg.png);
+    background-size: cover;
+    /* background-position: center; */
+    background-color: rgb(245, 245, 245);
+    font-family: poppins;
+    display: flex;
+    /* justify-content: space-around;
+    align-items: center; */
+    flex-wrap: wrap;
+}
+
+.service_inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service_inner1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* border: 2px solid #333; */
+    padding: 20px;
+}
+
+.service h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.service h4 {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.ser1,
+.ser2,
+.ser3 {
+    width: 300px;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+    background-color: #ffae00;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* align-self: center; */
+    animation: ser1 1s 4s ease-out;
+}
+
+.ser2 {
+    animation: ser2 1s 4s ease-out;
+
+}
+
+.ser3 {
+    animation: ser3 1s 4s ease-out;
+
+}
+
+.ser h3 {
+    margin-top: 10px;
+}
+
+.ser1:hover {
+    box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.356);
+}
+
+.ser2:hover {
+    box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.356);
+}
+
+.ser3:hover {
+    box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.356);
+}
+
+.service_inner .dashed {
+    margin-top: 10px;
+    /* margin-left: 530px; */
+    border: 2px dashed #ffae00;
+    width: 28%;
+}
+
+.service button {
+    background-color: rgb(8, 8, 96);
+    border: 2px solid #ffffff;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    /* margin-top: 20px; */
+    margin-left: 0px;
+    margin-top: 10px;
+    border-radius: 100px;
+    font-style: italic;
+}
+
+.service button:hover {
+    background-color: #ffae00;
+    border: 2px dashed #ffffff;
+    padding: 8px 25px;
+    /* margin-top: 20px; */
+    border-radius: 100px;
+    text-shadow: 2px 3px 2px black;
+}
+
+#serbtn {
+    background-color: rgb(8, 8, 96);
+    border: 3px solid #ffae00;
+    padding: 0px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 100px;
+    font-style: italic;
+}
+
+#serbtn:hover {
+    background-color: #ffae00;
+    border: 3px solid rgb(8, 8, 96);
+    padding: 0px 25px;
+    /* margin-top: 20px; */
+    border-radius: 100px;
+    text-shadow: 2px 3px 2px black;
+}
+
+@keyframes ser1 {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes ser2 {
+    0% {
+        opacity: 0;
+        transform: translatey(-50%);
+    }
+}
+
+@keyframes ser3 {
+    0% {
+        opacity: 0;
+        transform: translatex(50%);
+    }
+}
+
+/* ..............................SERVICE SECTION END................................. */
+
+/* ...............................MAP SECTION START................................. */
+.form_section {
+    background-color: rgb(229, 227, 227);
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* margin: 40px 0px; */
+
+}
+
+#form1 {
+    width: 48%;
+    height: 550px;
+    display: flex;
+    display: inline-block;
+    /* justify-content: center;
+    align-items: center; */
+    /* text-align: center; */
+    background-color: rgb(255, 255, 255);
+    padding: 30px 50px;
+    line-height: 40px;
+    margin: 0px 15px;
+    border-radius: 15px;
+    /* box-shadow: 0px 0px 30px 1px #ffae0038; */
+    border: 3px dashed #ffae00;
+
+}
+
+input {
+    width: 100%;
+    padding: 10px 30%;
+    /* margin: 20px 80px; */
+}
+
+/* ::placeholder{
+    font-family: poppins;
+    font-size: 14px;
+    text-align: start;
+} */
+#form1 h3 {
+    font-size: 50px;
+    color: rgb(8, 8, 96);
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#button {
+    margin-top: 20px;
+    padding: 10px 30px 10px 20px;
+    width: 130px;
+    background-color: rgb(8, 8, 96);
+    color: #ffffff;
+    border-radius: 100px;
+    font-size: 18px;
+    font-family: poppins;
+    font-style: italic;
+    border: 3px solid #ffae00;
+    margin-left: 220px;
+    float: inherit;
+}
+
+#button:hover {
+    margin-top: 20px;
+    padding: 10px 30px 10px 20px;
+    width: 130px;
+    background-color: transparent;
+    color: rgb(8, 8, 96);
+    border-radius: 100px;
+    font-size: 18px;
+    font-family: poppins;
+    font-style: italic;
+    border: 3px solid rgb(8, 8, 96);
+    /* margin-left: 220px; */
+}
+
+.detail {
+    display: flex;
+    /* position: relative; */
+    display: inline-block;
+    width: 48%;
+    margin: 0px 15px;
+    padding: 50px;
+    background-color: rgb(8, 8, 96);
+    border-radius: 15px;
+}
+
+.detail h4 {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.detail h2 {
+    font-size: 46px;
+    color: #ffffff;
+    margin: 20px 0PX 30PX 0px;
+
+}
+
+#dlist ul li {
+    color: #ffffff;
+    margin-left: 23px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* ..........................MAP SECTION END........................................ */
+
+
+/* .........................FOOTER START....................................... */
+.footer {
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 30%, rgb(8, 8, 96) 100%, rgb(5, 5, 122) 60%);
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 0px;
+    /* align-items: center; */
+    padding-top: 30px;
+}
+
+.footer ul li a {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footer li a:hover {
+    color: #ffae00;
+}
+
+.quick_links li {
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.foot1 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    flex-direction: column;
+    width: 23%;
+    height: 350px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.foot2 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    flex-direction: column;
+    width: 23%;
+    height: 350px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.our_services {
+    margin-top: 0px;
+}
+
+.foot3 {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: flex-start;serv */
+    flex-direction: column;
+    width: 23%;
+    height: 350px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.foot4 {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 23%;
+    height: 350px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.foot1 p {
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.foot1 img {
+    margin-left: 70px;
+}
+
+.foot1 button {
+    background-color: rgb(8, 8, 96);
+    border: 3px solid #ffffff;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    /* margin-top: 20px; */
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    border-radius: 100px;
+    font-style: italic;
+}
+
+.foot1 button:hover {
+    background-color: #ffae00;
+    border: 3px solid #ffffff;
+    padding: 10px 25px;
+    /* margin-top: 20px; */
+    border-radius: 20px;
+    text-shadow: 2px 3px 2px black;
+}
+
+.footer ul li {
+    margin-left: 15px;
+    /* list-style-type: none; */
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+.footer h1 {
+    color: #ffffff;
+}
+
+.foot4 {
+    color: #ffffff;
+    font-family: poppins;
+
+}
+
+.foot4 span {
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffae00;
+}
+
+p span {
+    line-height: 50px;
+}
+
+/* ................................FOOT TWO...................................... */
+.foot_two {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot_two h4 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: poppins;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* ................................FOOTER END...................................... */
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* <!-- ......................................ABOUT SECTION START.......................... --> */
+.pagebanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 10%, rgb(8, 8, 96) 100%, rgb(5, 5, 122) 100%);
+    /* text-align: center; */
+    height: 300px;
+}
+
+.pagebanner h2,
+p,
+a {
+    color: #ffffff;
+}
+
+.pagebanner a:hover {
+    color: #ffae00;
+}
+
+#abtp {
+    color: black;
+}
+
+/* .................................ABOUT PAGE END.................................. */
+
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ................SERVICE SECTION START................. */
+.service_page {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 10px;
+    background-image: url(../project/image/servicebg.png);
+    background-size: cover;
+    background-color: rgb(245, 245, 245);
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.service_inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service1,
+.service2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* border: 2px solid #333; */
+    padding: 20px;
+}
+
+.service_page h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.service_page h4 {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.serpage1,
+.serpage2,
+.serpage3,
+.serpage4,
+.serpage5,
+.serpage6 {
+    width: 300px;
+    height: 390px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #ffae00;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* align-self: center; */
+    /* animation: ser1 1s 4s ease-out; */
+    box-sizing: border-box;
+}
+
+.serpage1,
+.serpage4 {
+    animation: ser1 1s 2s ease-out;
+}
+
+.serpage2,
+.serpage5 {
+    animation: ser2 1s 2s ease-out;
+
+}
+
+.serpage3,
+.serpage6 {
+    animation: ser3 1s 2s ease-out;
+
+}
+
+.ser,
+h3 {
+    margin-top: 20px;
+}
+
+.serpage1:hover {
+    box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.356);
+}
+
+.serpage2:hover {
+    box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.356);
+}
+
+.serpage3:hover {
+    box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.356);
+}
+
+.serpage4:hover {
+    box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.356);
+}
+
+.serpage5:hover {
+    box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.356);
+}
+
+.serpage6:hover {
+    box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.356);
+}
+
+.service_inner .dashed {
+    margin-top: 10px;
+    /* margin-left: 530px; */
+    border: 2 px dashed   #ffae00;
+    width: 28%;
+}
+
+.service_page button {
+    background-color: rgb(8, 8, 96);
+    border: 2px solid #ffffff;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    /* margin-top: 20px; */
+    margin-left: 0px;
+    margin-top: 10px;
+    border-radius: 100px;
+    font-style: italic;
+}
+
+.service_page button:hover {
+    background-color: #ffae00;
+    border: 2px solid #ffffff;
+    padding: 10px 25px;
+    /* margin-top: 20px; */
+    border-radius: 100px;
+    text-shadow: 2px 3px 2px black;
+}
+
+@keyframes ser1 {
+    0% {
+        opacity: 10;
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes ser2 {
+    0% {
+        opacity: 0;
+        transform: translatey(-50%);
+    }
+}
+
+@keyframes ser3 {
+    0% {
+        opacity: 0;
+        transform: translatex(50%);
+    }
+}
+
+@keyframes ser4 {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes ser5 {
+    0% {
+        opacity: 0;
+        transform: translatey(-50%);
+    }
+}
+
+@keyframes ser6 {
+    0% {
+        opacity: 0;
+        transform: translatex(50%);
+    }
+}
+
+/* ...................SERVICE SECTION END................. */
+
+/* .........................................................................CONTACT PAGE START.................................. */
+
+/* ...................FORM SECTION START.................. */
+.contact_form {
+    background-color: rgb(229, 227, 227);
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* margin: 40px 0px; */
+
+}
+
+#form2 {
+    width: 40%;
+    height: 550px;
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 50px;
+    line-height: 40px;
+    /* margin: 15px 0px; */
+    border-radius: 15px 0PX 0px 15px;
+    /* box-shadow: 0px 0px 30px 1px #ffae0038; */
+    border: 3px dashed #ffae00;
+    border-right: 0px;
+
+}
+
+input {
+    width: 100%;
+    padding: 10px 30%;
+    /* margin: 20px 80px; */
+}
+
+/* ::placeholder{
+    font-family: poppins;
+    font-size: 14px;
+    text-align: start;
+} */
+#form2 h3 {
+    font-size: 50px;
+    color: rgb(8, 8, 96);
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#button {
+    margin-top: 20px;
+    padding: 10px 30px 10px 20px;
+    width: 130px;
+    background-color: rgb(8, 8, 96);
+    color: #ffae00;
+    border-radius: 100px;
+    font-size: 18px;
+    font-family: poppins;
+    font-style: italic;
+    border: 3px solid #ffae00;
+    float: center;
+    /* margin-left: 170px; */
+}
+
+#button:hover {
+    margin-top: 20px;
+    padding: 10px 30px 10px 20px;
+    width: 130px;
+    background-color: transparent;
+    color: rgb(8, 8, 96);
+    border-radius: 100px;
+    font-size: 18px;
+    font-family: poppins;
+    font-style: italic;
+    border: 3px solid rgb(8, 8, 96);
+    /* margin-left: 170px; */
+}
+
+.contact {
+    display: flex;
+    height: 91.5%;
+    display: inline-block;
+    width: 40%;
+    padding: 50px;
+    background-color: rgb(8, 8, 96);
+    border-radius: 0px 15PX 15px 0px;
+    border: 3px dashed #ffae00;
+    border-left: 0px;
+}
+
+.contact h4 {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.contact h2 {
+    font-size: 46px;
+    color: #ffffff;
+    margin: 20px 0PX 30PX 0px;
+
+}
+
+/* #dlist ul li {
+    color: #ffffff;
+    margin-left: 23px;
+    margin-top: 15px;
+    font-size: 18px;
+} */
+
+#conlist {
+    display: flex;
+    margin: 30px 0px;
+}
+
+#conlist h4 {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 22px;
+}
+
+.contact_socialicon a {
+    display: flex;
+    padding: 7px 7px 0px 7px;
+    margin-left: 20px;
+    border: 2px dotted rgb(255, 174, 0);
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    border-radius: 100%;
+    float: left;
+}
+
+.contact_socialicon a:hover {
+    background-color: rgb(255, 174, 0);
+}
+
+/* ..........................FORM SECTION END........................................ */
+
+/* MAP SECTION */
+.location {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.loc {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ................................MEDIA QUERY........................................ */
+@media only screen and (max-width: 600px) {
+    .service_inner1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        /* border: 2px solid #333; */
+        padding: 20px;
+    }
+}
